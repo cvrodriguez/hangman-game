@@ -1,16 +1,15 @@
-import React from 'react';
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import StartPage from "./Pages/StartPage";
-import Hangman from "./Pages/Hangman";
+import GamePage from "./Pages/GamePage";
 
 function App() {
-
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<StartPage />} />
-        <Route path="/hangman" element={<Hangman />} />
+        <Route path="/hangman" element={<GamePage />} />
       </Routes>
     </div>
   );
