@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BgImg from "../Assets/Chalkboard.png";
 import { useNavigate } from "react-router-dom";
-import Keyboard from "../comonents/Keyboard";
+import Keyboard from "../components/Keyboard";
 import { useState } from "react";
 
 function Hangman() {
