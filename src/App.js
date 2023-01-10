@@ -1,17 +1,17 @@
 import React from 'react';
+import { Routes, Route } from "react-router-dom";
 
-import '../src/App.css'
-import HangManComponent from './components/HangManComponent';
+import StartPage from "./Pages/StartPage";
+import Hangman from "./Pages/Hangman";
 
 function App() {
 
   return (
     <div className="App">
-      <div className='man-word'>
-      <HangManComponent></HangManComponent>
-     
-      </div>
-
+      <Routes>
+        <Route path="/" element={<StartPage />} />
+        <Route path="/hangman" element={<Hangman />} />
+      </Routes>
     </div>
   );
 }
