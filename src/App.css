@@ -1,11 +1,10 @@
 .App {
   text-align: center;
+  background-image: url('https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28313.jpg?w=740&t=st=1673334347~exp=1673334947~hmac=1cb7985b0c7103f9156c56141d0d6c37b133979ab61ec8c0487a7dd285194809');
+  height: 100vmin;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,7 +14,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
